@@ -9,3 +9,7 @@
 画廊的 59 张代表帧与 59 条样片来自 LemoLab 的 Lemo-Opuscar，影片与静帧按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 发布。代表帧清单为 [reference-frames.json](assets/gallery/reference-frames.json)，样片清单为 [samples.json](assets/gallery/samples.json)。后者记录 web Release 资产、原文件与分发文件的哈希和变更；各案例第三方素材署名保留在对应 demo/CREDITS。
 
 56 条样片原样纳入；game-show、paper-lantern、news-package 移除了音轨，视频内容保持不变，其被排除的配音未随本库分发。原始音源、字体、模型与数据集未单独收录。
+
+## 原创音乐视觉作品
+
+assets/gallery/originals 的三段画面来自超级峰原创的山河图、青花瓷烟雨山水与三维数学世界工程，音乐分别为凤凰传奇《山河图》、周杰伦《青花瓷》及《三角函数之歌》。短片保留相应歌曲音轨；歌曲权利归各自权利人，不由本库代码的 MIT 许可覆盖。作品不改变原歌曲权属。

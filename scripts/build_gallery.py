@@ -60,7 +60,15 @@ def gallery_data(root=ROOT):
         items.append(row)
     items.sort(key=lambda x:(FIRST.index(x['id']) if x['id'] in FIRST else len(FIRST),not bool(x['poster']),x['category'],x['id']))
     by_id={x['id']:x for x in items}
-    return dict(styles=items,scenarios=[dict(id=x['id'],name=x['name']) for x in scenario_items],
+    original_manifest=root/'assets/gallery/originals.json'
+    originals=json.loads(original_manifest.read_text())['samples'] if original_manifest.is_file() else []
+    for work in originals:
+        for key,hash_key in [('video','sha256'),('poster','poster_sha256')]:
+            path=inside(root/'assets/gallery',work[key])
+            if hashlib.sha256(path.read_bytes()).hexdigest()!=work[hash_key]:
+                raise ValueError(f'original work hash mismatch: {work["id"]} {key}')
+        work['poster']=image_url(inside(root/'assets/gallery',work['poster']),work['poster_sha256'])
+    return dict(styles=items,originals=originals,scenarios=[dict(id=x['id'],name=x['name']) for x in scenario_items],
         categories=sorted({x['category'] for x in items},key=lambda x:(x!='基础风格',x)),
         featured=[ident for ident in FEATURED if ident in by_id],
         photoReference=by_id.get('opuscar-city-symphony',{}).get('poster',''))

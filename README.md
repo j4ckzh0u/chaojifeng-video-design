@@ -12,6 +12,33 @@
 
 [开始使用](#开始使用) · [本库能力与来历](#能力从哪里来) · [七套基础风格](#本库维护的七套基础风格) · [59 套集成风格](#开源集成的-59-套影片风格) · [风格画廊](assets/gallery/index.html)
 
+## 音乐、主题、风格，直接开始
+
+给 Agent 三项输入，按真实音乐的起伏组织三维对象、镜头、文字与声音，完成可播放视频和可编辑工程。
+
+```text
+用 $chaojifeng-video-design 做一支音乐驱动的三维视频。
+音乐：【音乐文件或链接】
+主题：【要表现的对象或讲清的关系】
+风格：【水墨、烟雨、理论概念或自己的风格描述】
+直接完成成片和可编辑工程。
+```
+
+默认约60秒、1080p、30fps，已有项目或明确要求优先。水墨用墨滴、山体与河道表现力度；烟雨用器物、笔触、雾层组织尺度；理论概念让对象、投影与公式表达关系。音乐先分析，再编排预备、触发、峰值、落定和停留；保留指定歌曲，字幕稳定。
+
+内置音乐分析与事件校验工具，以及 Blender＋Remotion、Three.js＋Remotion 两条起步工程。Agent 会按新主题完善对象与关系，复用时间、镜头和外观层。查看 [完整制作流程](references/music-driven-world.md) 或 [在线作品与风格图册](https://mileson.github.io/chaojifeng-video-design/)。
+
+### 三段音乐视觉作品
+
+点击画面观看约15秒的有声片段，三段均保留原歌曲音轨。
+
+| 水墨山河 | 青花烟雨 | 三维数学世界 |
+| --- | --- | --- |
+| [![水墨山河](assets/gallery/originals/ink-landscape.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-ink-landscape) | [![青花烟雨](assets/gallery/originals/porcelain-rain.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-porcelain-rain) | [![三维数学世界](assets/gallery/originals/math-world.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-math-world) |
+| 墨点、峡谷与山河拉升 · [视频](assets/gallery/originals/ink-landscape.mp4) | 从器物纹样穿入烟雨山水 · [视频](assets/gallery/originals/porcelain-rain.mp4) | 穿越无穷符号，展开波形与公式 · [视频](assets/gallery/originals/math-world.mp4) |
+
+这三项是本库原创工程的音乐视觉作品，与下方集成风格分别展示。
+
 ## 能力从哪里来
 
 本库把创作方法、风格资源和制作工具组织在一起。下面按实际来源说明各部分，便于选择和继续扩展。
@@ -21,6 +48,7 @@
 | 导演方法、场景编排、表达目录与组合配方 | 本库结合创作实践和外部研究，原创归纳与适配 | 从观众要理解什么出发，安排主线、镜头、证据、声音和修改 |
 | 7 套基础风格 | 本库原有配置与规则，持续维护 | 产品、阅读、关系图、影像、拼贴和发布片的常用起点 |
 | 59 套影片风格、代表帧、案例与样片 | 集成自 [LemoLab · Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) | 补充水墨、版画、纪实、像素、卡通、材质与 3D 等表达 |
+| 音乐驱动三维世界、分析工具与起步工程 | 本库从原创山河、青花与数学视频工程提炼并独立实现 | 音乐、主题和风格驱动可编辑的三维音乐视频 |
 | 统一风格包、中文查询、外置集合和离线画廊 | 本库参考 Lemo-Opuscar 的工程分层后独立适配 | 让原有与集成风格进入同一目录，可查询、比较、派生和复用 |
 | 计划与交付规范、素材与媒体检查、声音事件审计等工具 | 本库独立实现 | 检查时间、引用、文件、实际媒体信息和交付完整性 |
 

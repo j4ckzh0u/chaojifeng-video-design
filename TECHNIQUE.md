@@ -36,3 +36,7 @@
 先读选中包的 STYLE.md、STYLE.upstream.md；确定本片意图后读 DEMO.md，按需复制 demo/ 中的实现到用户工程。修正 LIB、导入、资源和构建路径，按当前官方文档与本地版本核实 API。不要在库内执行 build.sh，不直接照搬上游模型、声音服务、素材或发布脚本。
 
 素材取用见 [asset-routing.md](references/asset-routing.md) 和 [production-tool-contract.md](references/production-tool-contract.md)；角色、空间与跨引擎组装见 [scene-tool-composition.md](references/scene-tool-composition.md)。
+
+## 音乐驱动三维世界
+
+给音乐、主题、风格时按 [专项流程](references/music-driven-world.md) 复用 `music_world.py` 与 `assets/music-world/starter`。分析只产候选，编排与主题适配由当前Agent完成；两条起步路线分别实测，不把源码存在当作已生成成片。

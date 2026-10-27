@@ -48,6 +48,16 @@ class GalleryTests(unittest.TestCase):
             path.write_bytes(b'\xff\xd8\xffother')
             with self.assertRaisesRegex(ValueError,'hash mismatch'):image_url(path,'0'*64)
 
+    def test_original_music_world_clips_keep_audio_and_local_files(self):
+        works=self.data['originals']
+        self.assertEqual({x['id'] for x in works},{'ink-landscape','porcelain-rain','math-world'})
+        for work in works:
+            self.assertTrue(work['has_audio'])
+            self.assertTrue(work['audio_preserved'])
+            self.assertLess(abs(work['duration']-15),.1)
+            self.assertTrue((ROOT/'assets/gallery'/work['video']).is_file())
+            self.assertTrue(work['poster'].startswith('data:image/jpeg;base64,'))
+
     def test_generation_is_current_and_does_not_change_evidence(self):
         catalog=ROOT/'catalog/styles.json';before=catalog.read_bytes()
         result=build(check=True)

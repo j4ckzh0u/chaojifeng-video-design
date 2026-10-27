@@ -26,3 +26,7 @@ python3 SKILL_ROOT/scripts/film_probe.py /path/to/film.mp4 --out /project/video/
 python3 SKILL_ROOT/scripts/audio_event_audit.py /project/video/audio-event-map.json /project/video/sfx-stem.wav --out /project/video/audit.json
 python3 SKILL_ROOT/scripts/explainer_timing_audit.py /project/video/knowledge-music-score.json --plan /project/video/plan.json --music-sheet /project/video/music-cue-sheet.json
 ```
+
+## 音乐、主题与风格
+
+`music_world.py init --music FILE --theme THEME --style 水墨|烟雨|理论概念 --into PROJECT` 创建不覆盖的项目，`analyse --project PROJECT` 保存候选分析并保留已编排事件，`validate --project PROJECT` 检查当前音轨身份和事件阶段。完整方法、路线与继续制作见 [音乐驱动三维世界](music-driven-world.md)。

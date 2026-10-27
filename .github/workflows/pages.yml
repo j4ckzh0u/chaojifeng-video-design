@@ -1,0 +1,34 @@
+name: Publish video gallery
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate catalog and gallery
+        run: |
+          python3 scripts/stylepacks.py build --check
+          python3 scripts/build_gallery.py --check
+          python3 -m unittest discover -s scripts -p test_music_world.py
+      - uses: actions/configure-pages@v5
+      - name: Build portable gallery
+        run: python3 scripts/build_site.py --into Output/site
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: Output/site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

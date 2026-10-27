@@ -532,7 +532,8 @@
         "作曲、音色合成和复杂物理乐器不由拍点合同自动提供。",
         "这是表达与编排指导；运行时能力、素材授权、连续播放与声音效果须逐项实测。",
         "音乐驱动三维世界沿music-driven-world流程使用真实音轨、统一事件和可复用起步工程；不改变其他音乐表演分支。",
-        "保留用户指定歌曲；新曲、新窗口和新帧率重建受影响时间与检查，不继承旧作品效果。"
+        "保留用户指定歌曲；新曲、新窗口和新帧率重建受影响时间与检查，不继承旧作品效果。",
+        "诗词乐器分支按当前唱词建立意象接力；声音时刻与运动映射分工，人物和乐器的接触及自然度独立复验。"
       ],
       "fallback": "只保留一个可验证事件或一组频段响应；无分析能力时人工标记关键事件，必需声音缺失则先交设计。",
       "verification_questions": [
@@ -560,7 +561,8 @@
         "https://github.com/yihui-dev/awesome-opus5-5-videos/blob/92aee2f586ac0715cb3cbcb6384834f98a33383d/prompts/apoorvjain25-945542.md",
         "https://www.ifanr.com/1660654",
         "https://www.nfpeople.com/index.php/article/14095",
-        "../references/music-driven-world.md"
+        "../references/music-driven-world.md",
+        "../references/poetry-music-world.md"
       ],
       "source_relation": "来源提供表达母题与制作经验；镜头目的、声音职责和验收是研究提出的可选合同，不复制原提示，不声称已复现。"
     },

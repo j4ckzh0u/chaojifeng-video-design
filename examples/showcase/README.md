@@ -16,6 +16,12 @@ https://github.com/user-attachments/assets/de15cfd8-d5f6-4a2d-9d11-bf17b719cc8a
 
 从器物纹样穿入烟雨山水。15秒连续选段，原片 17.5–32.5 秒；保留周杰伦《青花瓷》音轨。
 
+### 琵琶江月
+
+https://github.com/user-attachments/assets/d585b421-229a-401b-8006-09e12e468305
+
+琴弦、水波、笔触与立体诗字形成接力。15秒连续选段，取自《琵琶行·江月》23.5–38.5秒，保留奇然、沈谧仁《琵琶行》音轨。方法见 [诗词音乐世界](../../references/poetry-music-world.md)。
+
 ### 三维数学世界
 
 https://github.com/user-attachments/assets/dbc46343-0914-4c86-a258-c79100bd1997

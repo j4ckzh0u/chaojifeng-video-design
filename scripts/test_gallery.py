@@ -50,7 +50,9 @@ class GalleryTests(unittest.TestCase):
 
     def test_original_music_world_clips_keep_audio_and_local_files(self):
         works=self.data['originals']
-        self.assertEqual({x['id'] for x in works},{'ink-landscape','porcelain-rain','math-world'})
+        ids={x['id'] for x in works}
+        self.assertTrue({'ink-landscape','porcelain-rain','math-world','pipa-moon-river'}<=ids)
+        self.assertEqual(len(ids),len(works))
         for work in works:
             self.assertTrue(work['has_audio'])
             self.assertTrue(work['audio_preserved'])

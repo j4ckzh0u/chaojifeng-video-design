@@ -21,6 +21,7 @@ description: 设计和制作产品演示、知识讲解（含 Rap／说唱）、
 | 故事、镜头、声音、观众变化 | [DIRECTOR.md](DIRECTOR.md)，再按 [任务路由](references/task-routing.md) 加载相关方法 |
 | 选择、变体、借用或新增风格 | 用 [风格画廊](assets/gallery/index.html) 看画面、来源样片与并排对比；按 [风格包合同](references/style-pack-contract.md) 精确查询 ID／中文名／英文名，只读选中包的 STYLE.md 与其引用 |
 | 给音乐、主题和风格制作三维音乐视频 | 沿 music-event-performance 读取 [音乐驱动三维世界](references/music-driven-world.md)，复用分析工具与起步工程，内部检查后直接完成成片 |
+| 诗词、乐器与景物形成三维意象 | 沿音乐分支补读 [诗词音乐世界](references/poetry-music-world.md)，组织意象接力、运动时钟及人物与乐器接触 |
 | 工具、引擎、素材、实际制作 | [TECHNIQUE.md](TECHNIQUE.md)，能力探测后沿已有工程制作 |
 | 首次扩展、维护、导入与目录生成 | [MAINTAINING.md](MAINTAINING.md)，维护库与制作当前作品分别处理 |
 | 从计划走到成片 | [制作流程](references/production-workflow.md)、[计划合同](references/plan-contract.md)和[审片与修改](references/review-and-revision.md) |

@@ -20,7 +20,20 @@
       "poster_sha256": "c9e66187996daa41a955d361f0794997d934773807ab995017c490e5834e6e31",
       "bytes": 12163716,
       "music": "凤凰传奇《山河图》",
-      "guide": "../../references/music-driven-world.md"
+      "guide": "../../references/music-driven-world.md",
+      "category": "music-visual",
+      "github_video_attachment": {
+        "url": "https://github.com/user-attachments/assets/95b117d6-ba08-4714-9869-c0dc6b7cdab1",
+        "presentation": "native GitHub video player",
+        "audio": true,
+        "sha256": "cf41fbbcb1facd53854400567e24884b53bbd99316f41bb55db9896f7e3df9d4",
+        "bytes": 5071603,
+        "width": 1280,
+        "height": 720,
+        "duration": 15,
+        "first_frame_matches_poster": true,
+        "audio_packets_identical": true
+      }
     },
     {
       "id": "porcelain-rain",
@@ -40,7 +53,20 @@
       "poster_sha256": "3ca17a74373fcde2c82528de50541811877c09a2a74b21231a74a15fd71339bc",
       "bytes": 12701684,
       "music": "周杰伦《青花瓷》",
-      "guide": "../../references/music-driven-world.md"
+      "guide": "../../references/music-driven-world.md",
+      "category": "music-visual",
+      "github_video_attachment": {
+        "url": "https://github.com/user-attachments/assets/de15cfd8-d5f6-4a2d-9d11-bf17b719cc8a",
+        "presentation": "native GitHub video player",
+        "audio": true,
+        "sha256": "f17ec2fb0bc5b072fb339b6c90e8994e97ed79cc13f8d2fee516ae13d2366b49",
+        "bytes": 5147853,
+        "width": 1280,
+        "height": 720,
+        "duration": 15,
+        "first_frame_matches_poster": true,
+        "audio_packets_identical": true
+      }
     },
     {
       "id": "math-world",
@@ -60,7 +86,20 @@
       "poster_sha256": "44e0fe9865292c0e9737cb5302b1927898e6f6270b4ddaa8d57d136c68abbe1f",
       "bytes": 13471257,
       "music": "《三角函数之歌》",
-      "guide": "../../references/music-driven-world.md"
+      "guide": "../../references/music-driven-world.md",
+      "category": "music-visual",
+      "github_video_attachment": {
+        "url": "https://github.com/user-attachments/assets/dbc46343-0914-4c86-a258-c79100bd1997",
+        "presentation": "native GitHub video player",
+        "audio": true,
+        "sha256": "044772a8a8473714ff586f81e3e90ac50a859d4721cee31524ba52ac3e08fc54",
+        "bytes": 6206143,
+        "width": 1280,
+        "height": 720,
+        "duration": 15,
+        "first_frame_matches_poster": true,
+        "audio_packets_identical": true
+      }
     }
   ]
 }

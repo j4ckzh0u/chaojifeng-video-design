@@ -1,19 +1,32 @@
 # 成片案例
 
-两段从实际作品中剪出的高亮，分别展示产品功能与音乐叙事的表达方式。点击播放器即可观看，点击音量按钮开启原声。
+本页按音乐视觉作品、说唱知识解说、音乐产品解说三类汇总高亮。点击播放器即可在本页观看，片段均保留原声。
 
-## 小圆角
+## 音乐视觉作品
 
-https://github.com/user-attachments/assets/d87f8264-0a95-40d6-adbb-4e7e0afa32d3
+### 水墨山河
 
+https://github.com/user-attachments/assets/95b117d6-ba08-4714-9869-c0dc6b7cdab1
 
-同一组九张小卡先随滑块变圆，再进入批量处理界面，最后组成环形展示。歌词、字幕和画面动作围绕“边角变温柔”推进，让功能变化有明确的视觉结果。
+墨点、峡谷与山河拉升。15秒连续选段，原片 33.6–48.6 秒；保留凤凰传奇《山河图》音轨。
 
-片段长 22 秒，取自原片约 `00:22.033–00:44.033`。竖屏 720 × 1280，30 fps，保留原声；起止处做短淡入淡出。
+### 青花烟雨
 
-可对照 [产品任务证明](../../references/product-expression.md)、[素材表演与调度](../../references/asset-motion-direction.md) 和 [音乐导演](../../references/music-direction.md) 阅读。
+https://github.com/user-attachments/assets/de15cfd8-d5f6-4a2d-9d11-bf17b719cc8a
 
-## AI 闯关记
+从器物纹样穿入烟雨山水。15秒连续选段，原片 17.5–32.5 秒；保留周杰伦《青花瓷》音轨。
+
+### 三维数学世界
+
+https://github.com/user-attachments/assets/dbc46343-0914-4c86-a258-c79100bd1997
+
+穿越无穷符号，展开波形与公式。15秒连续选段，原片 36.0–51.0 秒；保留《三角函数之歌》音轨。
+
+README 使用720p原生视频预览，以当前封面作为第一帧，时长和音乐时间线保持不变。1080p片段与封面保存在 [作品目录](../../assets/gallery/originals/)，选段、校验值及预览对应见 [作品清单](../../assets/gallery/originals.json)。制作方法见 [音乐驱动三维世界](../../references/music-driven-world.md)。
+
+## 说唱知识解说
+
+### AI 闯关记
 
 https://github.com/user-attachments/assets/bced29b5-a55a-4f92-85a5-865c6730752a
 
@@ -24,9 +37,22 @@ https://github.com/user-attachments/assets/bced29b5-a55a-4f92-85a5-865c6730752a
 
 可对照 [声音与节奏](../../references/sound-and-rhythm.md)、[创意导演](../../references/creative-direction.md) 和 [发布片语法](../../references/launch-film-grammar.md) 阅读。
 
+## 音乐产品解说
+
+### 小圆角
+
+https://github.com/user-attachments/assets/d87f8264-0a95-40d6-adbb-4e7e0afa32d3
+
+
+同一组九张小卡先随滑块变圆，再进入批量处理界面，最后组成环形展示。歌词、字幕和画面动作围绕“边角变温柔”推进，让功能变化有明确的视觉结果。
+
+片段长 22 秒，取自原片约 `00:22.033–00:44.033`。竖屏 720 × 1280，30 fps，保留原声；起止处做短淡入淡出。
+
+可对照 [产品任务证明](../../references/product-expression.md)、[素材表演与调度](../../references/asset-motion-direction.md) 和 [音乐导演](../../references/music-direction.md) 阅读。
+
 ## 创作背景与溯源
 
-两部作品由作者在 Cursor 中协作制作。下面的会话 ID 用于对应创作来源，不包含聊天内容，也不是公开分享链接。
+小圆角与AI闯关记由作者在 Cursor 中协作制作。下面的会话 ID 用于对应这两部作品的创作来源，不包含聊天内容，也不是公开分享链接。
 
 | 作品 | Cursor 会话 ID |
 | --- | --- |

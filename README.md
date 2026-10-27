@@ -10,7 +10,7 @@
 
 具体制作沿用项目已有工具，渲染、配音和导出由运行 Skill 的 Agent 环境提供。
 
-[开始使用](#开始使用) · [本库能力与来历](#能力从哪里来) · [七套基础风格](#本库维护的七套基础风格) · [59 套集成风格](#开源集成的-59-套影片风格) · [风格画廊](assets/gallery/index.html)
+[创作案例](#创作案例) · [开始使用](#开始使用) · [本库能力与来历](#能力从哪里来) · [七套基础风格](#本库维护的七套基础风格) · [59 套集成风格](#开源集成的-59-套影片风格) · [风格画廊](assets/gallery/index.html)
 
 ## 音乐、主题、风格，直接开始
 
@@ -28,16 +28,53 @@
 
 内置音乐分析与事件校验工具，以及 Blender＋Remotion、Three.js＋Remotion 两条起步工程。Agent 会按新主题完善对象与关系，复用时间、镜头和外观层。查看 [完整制作流程](references/music-driven-world.md) 或 [在线作品与风格图册](https://mileson.github.io/chaojifeng-video-design/)。
 
-### 三段音乐视觉作品
+## 创作案例
 
-点击画面观看约15秒的有声片段，三段均保留原歌曲音轨。
+按作品的主要表达方式分类。点击下方播放器即可在本页观看，片段均保留原声。
 
-| 水墨山河 | 青花烟雨 | 三维数学世界 |
-| --- | --- | --- |
-| [![水墨山河](assets/gallery/originals/ink-landscape.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-ink-landscape) | [![青花烟雨](assets/gallery/originals/porcelain-rain.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-porcelain-rain) | [![三维数学世界](assets/gallery/originals/math-world.jpg)](https://mileson.github.io/chaojifeng-video-design/assets/gallery/index.html#original-math-world) |
-| 墨点、峡谷与山河拉升 · [视频](assets/gallery/originals/ink-landscape.mp4) | 从器物纹样穿入烟雨山水 · [视频](assets/gallery/originals/porcelain-rain.mp4) | 穿越无穷符号，展开波形与公式 · [视频](assets/gallery/originals/math-world.mp4) |
+### 音乐视觉作品
 
-这三项是本库原创工程的音乐视觉作品，与下方集成风格分别展示。
+用音乐的力度、乐句和段落推进三维空间、对象与镜头。三段均为15秒高亮。
+
+#### 水墨山河
+
+https://github.com/user-attachments/assets/95b117d6-ba08-4714-9869-c0dc6b7cdab1
+
+墨点、峡谷与山河拉升，随《山河图》的节奏展开。
+
+#### 青花烟雨
+
+https://github.com/user-attachments/assets/de15cfd8-d5f6-4a2d-9d11-bf17b719cc8a
+
+从器物纹样穿入烟雨山水，让《青花瓷》的乐句带动空间变化。
+
+#### 三维数学世界
+
+https://github.com/user-attachments/assets/dbc46343-0914-4c86-a258-c79100bd1997
+
+穿越无穷符号，展开波形与公式，让三维对象随音乐表达数学关系。
+
+### 说唱知识解说
+
+将知识主线写入说唱，用歌词、字幕和画面逐层展开。
+
+#### AI 闯关记
+
+https://github.com/user-attachments/assets/bced29b5-a55a-4f92-85a5-865c6730752a
+
+约18.6秒高亮，将开机倒数与“升级闯关”副歌串联，用闯关母题组织内容。
+
+### 音乐产品解说
+
+让歌词、音乐与真实产品操作一起推进，呈现功能和使用结果。
+
+#### 小圆角
+
+https://github.com/user-attachments/assets/d87f8264-0a95-40d6-adbb-4e7e0afa32d3
+
+22秒竖屏片段，将圆角滑动、九张批量处理与小卡环形展示串成一段。
+
+选段与创作来源见 [案例说明](examples/showcase/README.md)，音乐视觉作品的复用流程见 [音乐驱动三维世界](references/music-driven-world.md)。后续作品按表达方式补入对应分类，需要时再扩展新类。
 
 ## 能力从哪里来
 
@@ -98,22 +135,6 @@
 | [影像叙事](styles/cinematic-photo/STYLE.md) | 由照片和影像主体承担叙事 | 人物、旅行、图片成片、影像故事 |
 | [鲜明拼贴](styles/vivid-collage/STYLE.md) | 图片切块、鲜明颜色与尺度变化 | 节奏短片、活动、品牌与音乐视觉 |
 | [双底色发布片](styles/dual-ground-launch/STYLE.md) | 两块底色串联问题与解答 | 产品发布、功能章节、任务前后变化 |
-
-## 创作案例与实践积累
-
-### 小圆角
-
-https://github.com/user-attachments/assets/d87f8264-0a95-40d6-adbb-4e7e0afa32d3
-
-22 秒竖屏片段，将圆角滑动、九张批量处理与小卡环形展示串成一段。点击播放器观看，可通过音量按钮开启声音。
-
-### AI 闯关记
-
-https://github.com/user-attachments/assets/bced29b5-a55a-4f92-85a5-865c6730752a
-
-约 18.6 秒横屏高亮，将开机倒数与“升级闯关”副歌串联。点击播放器观看，可通过音量按钮开启声音。
-
-两部作品均在 Cursor 中协作制作。选段、方法对应和创作来源见 [案例说明](examples/showcase/README.md)。
 
 ## 开源集成的 59 套影片风格
 
@@ -479,4 +500,4 @@ python3 scripts/build_music_atlas.py
 
 本库原创代码、文档、模板和画廊程序采用 [MIT License](LICENSE)。集成的 Lemo-Opuscar 代码和文档保留其 MIT 许可；59 条样片与代表帧采用其 CC BY 4.0 许可，具体素材署名和三条无声样片的变更见 [第三方说明](THIRD_PARTY_NOTICES.md)。
 
-两部创作案例的使用范围见 [案例说明](examples/showcase/README.md#使用范围)。其他字体、音乐、模型和素材按各自条件使用。
+创作案例的使用范围见 [案例说明](examples/showcase/README.md#使用范围)。其他字体、音乐、模型和素材按各自条件使用。

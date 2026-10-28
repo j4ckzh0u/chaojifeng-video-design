@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1130" viewBox="0 0 960 1130" role="img" aria-labelledby="title desc"><title id="title">音乐带动画面：六层编排</title><desc id="desc">从声音时间线到情绪事件、镜头注意力、动作卡点、材质空间与感知验收。短段不足时返回编排，成立后完成全片。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#62748B"/></marker></defs>
+<rect width="960" height="1130" rx="24" fill="#F8FAFC"/>
+<g font-family="PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif">
+<text x="40" y="55" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">音乐带动画面</text>
+<text x="40" y="91" font-size="22" font-weight="400" fill="#334155" text-anchor="start">从声音证据，到可感知的事件变化</text>
+<rect x="40" y="120" width="700" height="58" rx="14" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.5"/>
+<text x="62" y="154" font-size="24" font-weight="600" fill="#172554" text-anchor="start">输入歌曲与用户要求</text>
+<path d="M390 178 V200" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="208" width="700" height="82" rx="14" fill="#DBEAFE" stroke="#60A5FA" stroke-width="1.5"/>
+<text x="62" y="242" font-size="24" font-weight="600" fill="#172554" text-anchor="start">01  音乐时间线</text>
+<text x="62" y="273" font-size="20" font-weight="400" fill="#334155" text-anchor="start">歌词校对 · 段落 / 乐句 / 瞬间</text>
+<path d="M390 290 V312" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="320" width="700" height="82" rx="14" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="62" y="354" font-size="24" font-weight="600" fill="#172554" text-anchor="start">02  情绪与事件</text>
+<text x="62" y="385" font-size="20" font-weight="400" fill="#334155" text-anchor="start">主体经历什么 · 前后关系怎样改变</text>
+<path d="M390 402 V424" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="432" width="700" height="82" rx="14" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="62" y="466" font-size="24" font-weight="600" fill="#172554" text-anchor="start">03  镜头与注意力</text>
+<text x="62" y="497" font-size="20" font-weight="400" fill="#334155" text-anchor="start">先看哪里 · 怎样引导 · 最后发现什么</text>
+<path d="M390 514 V536" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="544" width="700" height="82" rx="14" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="62" y="578" font-size="24" font-weight="600" fill="#172554" text-anchor="start">04  动作与卡点</text>
+<text x="62" y="609" font-size="20" font-weight="400" fill="#334155" text-anchor="start">准备 · 积累 · 峰值 · 回落与后果</text>
+<path d="M390 626 V648" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="656" width="700" height="82" rx="14" fill="#EDE9FE" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="62" y="690" font-size="24" font-weight="600" fill="#172554" text-anchor="start">05  材质与空间</text>
+<text x="62" y="721" font-size="20" font-weight="400" fill="#334155" text-anchor="start">附着 · 遮挡 · 光影 · 运动规则</text>
+<path d="M390 738 V760" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="768" width="700" height="82" rx="14" fill="#FEF3C7" stroke="#FBBF24" stroke-width="1.5"/>
+<text x="62" y="802" font-size="24" font-weight="600" fill="#172554" text-anchor="start">06  感知验收</text>
+<text x="62" y="833" font-size="20" font-weight="400" fill="#334155" text-anchor="start">开场短段 · 正常尺寸与速度 · 声画回放</text>
+<path d="M740 809 H870 V361 H750" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="845" y="550" font-size="20" font-weight="600" fill="#92400E" text-anchor="middle">需要调整</text>
+<text x="845" y="581" font-size="20" font-weight="400" fill="#92400E" text-anchor="middle">返回编排</text>
+<path d="M390 850 V897" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="420" y="881" font-size="20" font-weight="600" fill="#166534" text-anchor="start">关键短段成立</text>
+<rect x="40" y="908" width="700" height="82" rx="14" fill="#DCFCE7" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="62" y="942" font-size="24" font-weight="600" fill="#172554" text-anchor="start">完成全片与完整审片</text>
+<text x="62" y="973" font-size="20" font-weight="400" fill="#334155" text-anchor="start">字幕 · 导出 · 连续声画核对</text>
+<path d="M390 990 V1014" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="1026" width="700" height="58" rx="14" fill="#DCFCE7" stroke="#4ADE80" stroke-width="1.5"/>
+<text x="62" y="1060" font-size="24" font-weight="600" fill="#172554" text-anchor="start">交付可播放视频与可编辑工程</text>
+</g></svg>

@@ -42,29 +42,9 @@
 
 从真实声音出发，把每个关键段落变成能看见变化、能听见联系的事件，再通过短段预演检查是否兑现。
 
-```mermaid
-flowchart TD
-    A["输入歌曲与用户要求"] --> B["1 音乐时间线<br/>歌词校对 · 段落 / 乐句 / 瞬间"]
-    B --> C["2 情绪与事件<br/>主体经历什么 · 前后关系怎样改变"]
-    C --> D["3 镜头与注意力<br/>先看哪里 · 怎样引导 · 最后发现什么"]
-    D --> E["4 动作与卡点<br/>准备 · 积累 · 峰值 · 回落与后果"]
-    E --> F["5 材质与空间<br/>附着 · 遮挡 · 光影 · 运动规则"]
-    F --> G["6 感知验收<br/>开场短段 · 正常尺寸与速度 · 声画回放"]
-    G --> H{"预期变化是否兑现"}
-    H -->|需要调整| C
-    H -->|关键短段成立| I["完成全片 · 字幕 · 导出与完整审片"]
-    I --> J["可播放视频与可编辑工程"]
-    classDef input fill:#E5E7EB,stroke:#6B7280,color:#111827;
-    classDef music fill:#DBEAFE,stroke:#2563EB,color:#172554;
-    classDef direction fill:#EDE9FE,stroke:#7C3AED,color:#2E1065;
-    classDef review fill:#FEF3C7,stroke:#D97706,color:#78350F;
-    classDef output fill:#DCFCE7,stroke:#16A34A,color:#14532D;
-    class A input;
-    class B music;
-    class C,D,E,F direction;
-    class G,H review;
-    class I,J output;
-```
+![音乐视频六层编排与短段返修流程](assets/diagrams/music-event-model.svg)
+
+[可编辑流程定义](assets/diagrams/music-event-model.mmd) · [矢量图](assets/diagrams/music-event-model.svg)
 
 短段预演和必要返修由 Agent 内部完成；选择直接成片时连续推进，只有你要求分阶段审阅，才在约定节点等待。六层判断详见 [声画事件模型](references/music-event-model.md)。
 
@@ -125,25 +105,9 @@ flowchart TD
 
 有可信歌词和时间稿时直接复用。缺少能力时，Agent 先检查已有环境、模型缓存与硬件资源，再按任务选择入口；无需把三个工具全部安装。
 
-```mermaid
-flowchart LR
-    A["当前任务缺什么"] --> W["歌词转写<br/>OpenAI Whisper"]
-    A --> C["音乐理解或生成<br/>ACE-Step 1.5"]
-    A --> D["伴奏干扰识别<br/>HTDemucs 可选分离"]
-    W --> P["检查已有环境、缓存与资源"]
-    C --> P
-    D --> P
-    P -->|条件具备| T["短样运行验证"]
-    P -->|确有缺项| I["官方入口 · 按授权补齐所需组件"]
-    I --> T
-    T --> R["校对结果 · 核对时间映射 · 进入编排"]
-    classDef choose fill:#DBEAFE,stroke:#2563EB,color:#172554;
-    classDef check fill:#FEF3C7,stroke:#D97706,color:#78350F;
-    classDef result fill:#DCFCE7,stroke:#16A34A,color:#14532D;
-    class A,W,C,D choose;
-    class P,I,T check;
-    class R result;
-```
+![Whisper、ACE-Step 与 HTDemucs 按需检测安装流程](assets/diagrams/audio-capability-setup.svg)
+
+[可编辑流程定义](assets/diagrams/audio-capability-setup.mmd) · [矢量图](assets/diagrams/audio-capability-setup.svg)
 
 | 能力 | 用途 | 入口与运行边界 |
 | --- | --- | --- |

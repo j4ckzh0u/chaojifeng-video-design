@@ -1,0 +1,21 @@
+flowchart TD
+    A["输入歌曲与用户要求"] --> B["1 音乐时间线<br/>歌词校对 · 段落 / 乐句 / 瞬间"]
+    B --> C["2 情绪与事件<br/>主体经历什么 · 前后关系怎样改变"]
+    C --> D["3 镜头与注意力<br/>先看哪里 · 怎样引导 · 最后发现什么"]
+    D --> E["4 动作与卡点<br/>准备 · 积累 · 峰值 · 回落与后果"]
+    E --> F["5 材质与空间<br/>附着 · 遮挡 · 光影 · 运动规则"]
+    F --> G["6 感知验收<br/>开场短段 · 正常尺寸与速度 · 声画回放"]
+    G --> H{"预期变化是否兑现"}
+    H -->|需要调整| C
+    H -->|关键短段成立| I["完成全片 · 字幕 · 导出与完整审片"]
+    I --> J["可播放视频与可编辑工程"]
+    classDef input fill:#E5E7EB,stroke:#6B7280,color:#111827;
+    classDef music fill:#DBEAFE,stroke:#2563EB,color:#172554;
+    classDef directing fill:#EDE9FE,stroke:#7C3AED,color:#2E1065;
+    classDef review fill:#FEF3C7,stroke:#D97706,color:#78350F;
+    classDef output fill:#DCFCE7,stroke:#16A34A,color:#14532D;
+    class A input;
+    class B music;
+    class C,D,E,F directing;
+    class G,H review;
+    class I,J output;

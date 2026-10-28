@@ -30,7 +30,7 @@
 <rect x="40" y="768" width="700" height="82" rx="14" fill="#FEF3C7" stroke="#FBBF24" stroke-width="1.5"/>
 <text x="62" y="802" font-size="24" font-weight="600" fill="#172554" text-anchor="start">06  感知验收</text>
 <text x="62" y="833" font-size="20" font-weight="400" fill="#334155" text-anchor="start">开场短段 · 正常尺寸与速度 · 声画回放</text>
-<path d="M740 809 H870 V361 H750" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M740 809 H915 V361 H750" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>
 <text x="845" y="550" font-size="20" font-weight="600" fill="#92400E" text-anchor="middle">需要调整</text>
 <text x="845" y="581" font-size="20" font-weight="400" fill="#92400E" text-anchor="middle">返回编排</text>
 <path d="M390 850 V897" fill="none" stroke="#62748B" stroke-width="2" marker-end="url(#arrow)"/>

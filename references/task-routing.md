@@ -11,14 +11,14 @@
 | story-video | 保持人物、事件与转折连续；读 [镜头生产统筹](shot-production.md) |
 | feature-motion | 展示初态、触发、变化与终态；读 [视觉强调](visual-emphasis.md)和[产品表达](product-expression.md) |
 | brand-film | 建立品牌感受与视觉记忆；按 [创意导演](creative-direction.md) 区分事实、愿景和象征 |
-| music-visual | 用乐段、动机、变奏与释放组织体验；读 [音乐导演](music-direction.md)与[声音和节奏](sound-and-rhythm.md) |
+| music-visual | 用乐段、动机、变奏与释放组织体验；先读 [歌曲视觉导演](song-visual-direction.md)和[音乐镜头与运动编排](music-shot-choreography.md)，再读 [音乐导演](music-direction.md)与[声音和节奏](sound-and-rhythm.md) |
 
 ## 按明确意图补读
 
 | 用户意图或制作条件 | 路由与约束 |
 | --- | --- |
 | 诗词、乐器、景物与立体文字共同表达 | music-event-performance；在音乐驱动流程中补读 [诗词音乐世界](poetry-music-world.md)，按当前唱词和事件建立意象、运动映射与接触关系 |
-| 给定音乐、主题、风格，以三维对象响应音乐 | music-event-performance 的音乐先行分支；读 [音乐驱动三维世界](music-driven-world.md)，重建当前音乐与主题关系，默认连续完成；理论主题补知识表达 |
+| 用三维对象响应音乐，主题或风格可由歌曲推导 | music-event-performance 的音乐先行分支；先读 [歌曲视觉导演](song-visual-direction.md)和[音乐镜头与运动编排](music-shot-choreography.md)，再读 [音乐驱动三维世界](music-driven-world.md)，默认连续完成；理论主题补知识表达 |
 | 概念、原理或机制需要音乐推进 | knowledge-music-explainer；读 [概念知识科普编排](knowledge-music-direction.md)，先按所选曲目的实际结构反推知识层与镜头 |
 | 用 Rap／嘻哈／说唱讲知识、历史、机制、产业或社会议题 | 自动选 knowledge-rap-explainer；读 [说唱科普](knowledge-rap-direction.md)。背景音乐需求不自动切 Rap，产品宣传按主要目标选配方 |
 | 产品宣传需要歌词、乐段组织动作或副歌变奏 | product-music-story；读 [产品音乐叙事](product-music-story.md)，先核任务与歌词主张 |

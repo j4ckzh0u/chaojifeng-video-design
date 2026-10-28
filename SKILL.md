@@ -19,8 +19,11 @@ description: 设计和制作产品演示、知识讲解（含 Rap／说唱）、
 | 要解决的问题 | 读取与动作 |
 | --- | --- |
 | 故事、镜头、声音、观众变化 | [DIRECTOR.md](DIRECTOR.md)，再按 [任务路由](references/task-routing.md) 加载相关方法 |
+| 给歌曲设计音乐视频，包括未指定主题或风格 | 先读 [歌曲视觉导演](references/song-visual-direction.md)、[声画事件模型](references/music-event-model.md)和[音乐镜头与运动编排](references/music-shot-choreography.md)，有演唱先取得歌词时间线，再用[音乐导演编排模板](templates/music-direction.md)或已有计划落实多层声音锚点、事件前后变化、视线与运镜、动作峰值、空间材质及实际感知验收 |
+| 有旁白、歌词或需要字幕 | 读 [字幕导演与配色](references/subtitle-direction.md)，确定语言、内容、时间、可读性和与音乐协调的动作 |
+| 缺少转写、音乐理解或人声分离能力 | 按 [音频能力检测与按需安装](references/audio-capability-setup.md) 独立选择 Whisper、ACE-Step 1.5 或 HTDemucs；先静态检测与资源核对，再按授权补齐和短样验证，不默认全装或启动下载 |
 | 选择、变体、借用或新增风格 | 用 [风格画廊](assets/gallery/index.html) 看画面、来源样片与并排对比；按 [风格包合同](references/style-pack-contract.md) 精确查询 ID／中文名／英文名，只读选中包的 STYLE.md 与其引用 |
-| 给音乐、主题和风格制作三维音乐视频 | 沿 music-event-performance 读取 [音乐驱动三维世界](references/music-driven-world.md)，复用分析工具与起步工程，内部检查后直接完成成片 |
+| 用三维世界呈现音乐 | 沿 music-event-performance 读取 [音乐驱动三维世界](references/music-driven-world.md)，复用分析工具与起步工程，内部检查后直接完成成片 |
 | 诗词、乐器与景物形成三维意象 | 沿音乐分支补读 [诗词音乐世界](references/poetry-music-world.md)，组织意象接力、运动时钟及人物与乐器接触 |
 | 工具、引擎、素材、实际制作 | [TECHNIQUE.md](TECHNIQUE.md)，能力探测后沿已有工程制作 |
 | 首次扩展、维护、导入与目录生成 | [MAINTAINING.md](MAINTAINING.md)，维护库与制作当前作品分别处理 |
@@ -42,6 +45,8 @@ python3 SKILL_ROOT/scripts/check_delivery.py /project/video/plan.json /project/v
 - 事实镜头先找真实产品、原始照片、录像、档案与数据；先查项目缓存与授权资产，只补缺口。无法成立时换镜头或收缩主张。
 - 信息流科普与宣传默认检查首帧和前三秒；概念讲解先核事实、标准与术语，再逐层揭示；Rap 先核知识与可唱歌词，再按真实音轨编排。
 - 有旁白或歌词时取得真实音频，逐句关联画面与字幕；换音轨后重新测量、编排和核对。音乐选择遵循用户指定、项目已选、配方默认的顺序；候选池与默认分开维护，不将某首曲子升为全局默认。
+- 音乐视频以音乐驱动画面的节奏，歌曲营造氛围，场景编排、主体动作、运镜、转场与动效共同建立吸引力和沉浸感。慢歌同样需要设计声画落点，随唱句、旋律、呼吸、重音和停顿安排蓄势、推进、释放与余韵；快慢影响速度、幅度和密度，不能成为弱化编排的理由。有演唱却无现成稿时，先按字幕指南探测并尝试可用转写／对齐能力，不能直接省略歌词和默认字幕。
+- 有旁白或歌词且字幕语言未指定时，默认中文为主、英文为辅；用户明确要求英文时纯英文。用户指定其他语言、无字幕，或项目已有明确字幕要求时优先遵循；纯器乐不凭空补歌词。字幕的翻译、节奏和配色按 [字幕导演与配色](references/subtitle-direction.md) 实际落实并审片。
 - 时间使用整片绝对秒与稳定 ID；画面、声音和字幕从同一排程派生。音效较多时使用 [声音事件表](templates/audio-event-map.json)，必要时用 film_probe.py 与 audio_event_audit.py 实测。统一时钟、随机 seek 或声音同步只有实测后才能登记通过。
 - 上游风格的完整规则和可复用源已纳入包中。先确定本片意图，再读案例实现；本片品牌、事实、指定音乐、语言、画幅与交付要求优先。素材、模型或工具许可不从代码许可推断。
 - 内部来源、重建与执行记录单独保存。正文、业务提示词、可见路径、字幕、口播及导出附件直接面向受众，不自动附加制作身份标签或创作自述；保留必要事实边界和授权检查。

@@ -20,7 +20,7 @@ description: 设计和制作产品演示、知识讲解（含 Rap／说唱）、
 | --- | --- |
 | 故事、镜头、声音、观众变化 | [DIRECTOR.md](DIRECTOR.md)，再按 [任务路由](references/task-routing.md) 加载相关方法 |
 | 给歌曲设计音乐视频，包括未指定主题或风格 | 先读 [歌曲视觉导演](references/song-visual-direction.md)、[声画事件模型](references/music-event-model.md)和[音乐镜头与运动编排](references/music-shot-choreography.md)，有演唱先取得歌词时间线，再用[音乐导演编排模板](templates/music-direction.md)或已有计划落实多层声音锚点、事件前后变化、视线与运镜、动作峰值、空间材质及实际感知验收 |
-| 有旁白、歌词或需要字幕 | 读 [字幕导演与配色](references/subtitle-direction.md)，确定语言、内容、时间、可读性和与音乐协调的动作 |
+| 有旁白、歌词或需要字幕 | 读 [字幕导演与配色](references/subtitle-direction.md)，在分镜阶段确定语言、语义分组、场景锚点、视线接力、阅读窗和音乐落点，优先探索空间文字与动态排版，保留固定字幕选项 |
 | 缺少转写、音乐理解或人声分离能力 | 按 [音频能力检测与按需安装](references/audio-capability-setup.md) 独立选择 Whisper、ACE-Step 1.5 或 HTDemucs；先静态检测与资源核对，再按授权补齐和短样验证，不默认全装或启动下载 |
 | 选择、变体、借用或新增风格 | 用 [风格画廊](assets/gallery/index.html) 看画面、来源样片与并排对比；按 [风格包合同](references/style-pack-contract.md) 精确查询 ID／中文名／英文名，只读选中包的 STYLE.md 与其引用 |
 | 用三维世界呈现音乐 | 沿 music-event-performance 读取 [音乐驱动三维世界](references/music-driven-world.md)，复用分析工具与起步工程，内部检查后直接完成成片 |
